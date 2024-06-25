@@ -1,0 +1,804 @@
+[
+    {
+        "word": "register",
+        "meaning": "등록하다; 기록하다; 신청하다; 등록, 등록부",
+        "sentence": "Students must register for classes before the deadline.",
+        "korean_meaning": "학생들은 마감일 전에 수업을 등록해야 합니다.",
+        "quiz": "Students must ? for classes before the deadline.",
+        "answer": "register"
+    },
+    {
+        "word": "nevertheless",
+        "meaning": "그럼에도 불구하고",
+        "sentence": "He was deaf; nevertheless, he kept writing music.",
+        "korean_meaning": "그는 청각장애가 있었지만, 그럼에도 불구하고 음악을 계속 썼습니다.",
+        "quiz": "He was deaf; ?, he kept writing music.",
+        "answer": "nevertheless"
+    },
+    {
+        "word": "reliable",
+        "meaning": "믿을 수 있는, 확실한",
+        "sentence": "It is a little expensive, but it is reliable.",
+        "korean_meaning": "조금 비싸지만 믿을 수 있습니다.",
+        "quiz": "It is a little expensive, but it is ?.",
+        "answer": "reliable"
+    },
+    {
+        "word": "alternative",
+        "meaning": "대안, 선택 가능한 것; 대체 가능한, 대안이 되는",
+        "sentence": "Do you have any alternative plans if rejected?",
+        "korean_meaning": "거절되었을 때 대안 계획이 있습니까?",
+        "quiz": "Do you have any ? plans if rejected?",
+        "answer": "alternative"
+    },
+    {
+        "word": "barrier",
+        "meaning": "장애, 장벽; 방벽, 국경의 요새",
+        "sentence": "She had problems caused by linguistic and cultural barriers.",
+        "korean_meaning": "그녀는 언어적, 문화적 장벽으로 인한 문제를 겪었습니다.",
+        "quiz": "She had problems caused by linguistic and cultural ?.",
+        "answer": "barriers"
+    },
+    {
+        "word": "former",
+        "meaning": "이전의, 예전의; ((the ~)) (둘 중에서) 전자",
+        "sentence": "The former president of the U.S. was invited to the conference.",
+        "korean_meaning": "미국의 전 대통령이 회의에 초대되었습니다.",
+        "quiz": "The ? president of the U.S. was invited to the conference.",
+        "answer": "former"
+    },
+    {
+        "word": "obvious",
+        "meaning": "명백한, 분명한",
+        "sentence": "It is obvious that the goals can’t be reached.",
+        "korean_meaning": "목표에 도달할 수 없다는 것은 명백합니다.",
+        "quiz": "It is ? that the goals can’t be reached.",
+        "answer": "obvious"
+    },
+    {
+        "word": "concentrate",
+        "meaning": "집중하다; (한 곳에) 모으다",
+        "sentence": "I can’t concentrate on my studying because of the noise.",
+        "korean_meaning": "소음 때문에 공부에 집중할 수 없습니다.",
+        "quiz": "I can’t ? on my studying because of the noise.",
+        "answer": "concentrate"
+    },
+    {
+        "word": "relevant",
+        "meaning": "관련된; 적절한",
+        "sentence": "This evidence is relevant to the case.",
+        "korean_meaning": "이 증거는 그 사건과 관련이 있습니다.",
+        "quiz": "This evidence is ? to the case.",
+        "answer": "relevant"
+    },
+    {
+        "word": "artificial",
+        "meaning": "인공의, 인조의; (행동이) 거짓인, 꾸민",
+        "sentence": "The garden is full of colorful artificial lights.",
+        "korean_meaning": "정원은 다양한 색상의 인공 조명으로 가득합니다.",
+        "quiz": "The garden is full of colorful ? lights.",
+        "answer": "artificial"
+    },
+    {
+        "word": "acknowledge",
+        "meaning": "인정하다, 승인하다; 감사를 표하다",
+        "sentence": "We need to acknowledge the importance of cultural diversity.",
+        "korean_meaning": "우리는 문화적 다양성의 중요성을 인정해야 합니다.",
+        "quiz": "We need to ? the importance of cultural diversity.",
+        "answer": "acknowledge"
+    },
+    {
+        "word": "eventually",
+        "meaning": "결국, 최종적으로, 마침내",
+        "sentence": "He eventually found success because he refused to give up.",
+        "korean_meaning": "그는 결국 포기하지 않았기 때문에 성공을 찾았습니다.",
+        "quiz": "He ? found success because he refused to give up.",
+        "answer": "eventually"
+    },
+    {
+        "word": "differ",
+        "meaning": "((~ from)) 다르다",
+        "sentence": "Popular trends often differ from country to country.",
+        "korean_meaning": "인기 있는 트렌드는 종종 나라별로 다릅니다.",
+        "quiz": "Popular trends often ? from country to country.",
+        "answer": "differ"
+    },
+    {
+        "word": "cooperate",
+        "meaning": "협력하다, 협동하다",
+        "sentence": "Children should be taught to cooperate rather than to compete.",
+        "korean_meaning": "아이들은 경쟁보다는 협력하는 법을 배워야 합니다.",
+        "quiz": "Children should be taught to ? rather than to compete.",
+        "answer": "cooperate"
+    },
+    {
+        "word": "charge",
+        "meaning": "청구하다; 고발하다; 책임을 지우다; 충전하다; 요금; 책임",
+        "sentence": "Police charged the man with drunk driving.",
+        "korean_meaning": "경찰은 그 남자를 음주 운전으로 기소했습니다.",
+        "quiz": "Police ? the man with drunk driving.",
+        "answer": "charged"
+    },
+    {
+        "word": "interrupt",
+        "meaning": "방해하다, 중단시키다",
+        "sentence": "Don’t interrupt me when I am talking.",
+        "korean_meaning": "내가 말할 때 방해하지 마세요.",
+        "quiz": "Don’t ? me when I am talking.",
+        "answer": "interrupt"
+    },
+    {
+        "word": "struggle",
+        "meaning": "버둥거리다, 허덕이다; 분투하다, 열심히 노력하다; 싸움; 노력",
+        "sentence": "The bear struggled to free its paw from the trap.",
+        "korean_meaning": "곰은 덫에서 발을 빼내기 위해 몸부림쳤습니다.",
+        "quiz": "The bear ? to free its paw from the trap.",
+        "answer": "struggled"
+    },
+    {
+        "word": "disappear",
+        "meaning": "사라지다",
+        "sentence": "All the pictures on my smartphone suddenly disappeared.",
+        "korean_meaning": "내 스마트폰의 모든 사진이 갑자기 사라졌습니다.",
+        "quiz": "All the pictures on my smartphone suddenly ?.",
+        "answer": "disappeared"
+    },
+    {
+        "word": "enhance",
+        "meaning": "높이다, 강화하다",
+        "sentence": "Learning something new is a good way to enhance creativity.",
+        "korean_meaning": "새로운 것을 배우는 것은 창의성을 높이는 좋은 방법입니다.",
+        "quiz": "Learning something new is a good way to ? creativity.",
+        "answer": "enhance"
+    },
+    {
+        "word": "adequate",
+        "meaning": "적절한, 충분한",
+        "sentence": "Getting adequate rest is vital for your health.",
+        "korean_meaning": "충분한 휴식을 취하는 것은 건강에 매우 중요합니다.",
+        "quiz": "Getting ? rest is vital for your health.",
+        "answer": "adequate"
+    },
+    {
+        "word": "account",
+        "meaning": "설명, 보고; 계좌; 설명하다; 차지하다",
+        "sentence": "Immigrants account for nearly 20% of the current workforce.",
+        "korean_meaning": "이민자들은 현재 노동력의 거의 20%를 차지합니다.",
+        "quiz": "Immigrants ? for nearly 20% of the current workforce.",
+        "answer": "account"
+    },
+    {
+        "word": "adversity",
+        "meaning": "역경",
+        "sentence": "She overcame adversity and gained success in the field.",
+        "korean_meaning": "그녀는 역경을 극복하고 그 분야에서 성공을 거두었습니다.",
+        "quiz": "She overcame ? and gained success in the field.",
+        "answer": "adversity"
+    },
+    {
+        "word": "appreciate",
+       
+
+ "meaning": "이해하다; 감상하다, 진가를 알다; 고맙게 생각하다",
+        "sentence": "People appreciate art in different ways.",
+        "korean_meaning": "사람들은 예술을 다양한 방식으로 감상합니다.",
+        "quiz": "People ? art in different ways.",
+        "answer": "appreciate"
+    },
+    {
+        "word": "potential",
+        "meaning": "잠재적인, 가능성이 있는; 가능성, 잠재력",
+        "sentence": "It is important to predict the demand from potential customers.",
+        "korean_meaning": "잠재 고객의 수요를 예측하는 것이 중요합니다.",
+        "quiz": "It is important to predict the demand from ? customers.",
+        "answer": "potential"
+    },
+    {
+        "word": "genuine",
+        "meaning": "진실된; 진짜의",
+        "sentence": "The family expressed genuine appreciation for the help they received.",
+        "korean_meaning": "그 가족은 받은 도움에 대해 진심으로 감사했습니다.",
+        "quiz": "The family expressed ? appreciation for the help they received.",
+        "answer": "genuine"
+    },
+    {
+        "word": "average",
+        "meaning": "평균; 표준, 보통수준; 평균의, 보통의",
+        "sentence": "His math skills are above average.",
+        "korean_meaning": "그의 수학 실력은 평균 이상입니다.",
+        "quiz": "His math skills are above ?.",
+        "answer": "average"
+    },
+    {
+        "word": "behavior",
+        "meaning": "행동, 행위, 태도",
+        "sentence": "His parents scolded him for his bad behavior.",
+        "korean_meaning": "그의 부모는 그의 나쁜 행동에 대해 그를 꾸짖었습니다.",
+        "quiz": "His parents scolded him for his bad ?.",
+        "answer": "behavior"
+    },
+    {
+        "word": "identical",
+        "meaning": "동일한, 일치하는",
+        "sentence": "My sister and I are identical twins.",
+        "korean_meaning": "내 여동생과 나는 일란성 쌍둥이입니다.",
+        "quiz": "My sister and I are ? twins.",
+        "answer": "identical"
+    },
+    {
+        "word": "revenue",
+        "meaning": "매출, 수입",
+        "sentence": "Many local companies suffered losses in revenue because of the pandemic.",
+        "korean_meaning": "많은 지역 기업들이 팬데믹으로 인해 매출 손실을 겪었습니다.",
+        "quiz": "Many local companies suffered losses in ? because of the pandemic.",
+        "answer": "revenue"
+    },
+    {
+        "word": "receipt",
+        "meaning": "영수증",
+        "sentence": "Remember to always keep your receipt when you buy something expensive.",
+        "korean_meaning": "비싼 것을 살 때는 항상 영수증을 보관해야 합니다.",
+        "quiz": "Remember to always keep your ? when you buy something expensive.",
+        "answer": "receipt"
+    },
+    {
+        "word": "furthermore",
+        "meaning": "더욱이, 게다가",
+        "sentence": "This food is delicious; furthermore, it’s easy to cook.",
+        "korean_meaning": "이 음식은 맛있고, 게다가 요리하기도 쉽습니다.",
+        "quiz": "This food is delicious; ?, it’s easy to cook.",
+        "answer": "furthermore"
+    },
+    {
+        "word": "analyze",
+        "meaning": "분석하다, 검토하다",
+        "sentence": "The doctor analyzed the blood sample taken from the patient.",
+        "korean_meaning": "의사는 환자에게서 채취한 혈액 샘플을 분석했습니다.",
+        "quiz": "The doctor ? the blood sample taken from the patient.",
+        "answer": "analyzed"
+    },
+    {
+        "word": "obligation",
+        "meaning": "의무, 책임",
+        "sentence": "All rights imply obligations.",
+        "korean_meaning": "모든 권리는 의무를 포함합니다.",
+        "quiz": "All rights imply ?.",
+        "answer": "obligations"
+    },
+    {
+        "word": "apology",
+        "meaning": "사과, 사죄",
+        "sentence": "He offered me an apology for being so rude.",
+        "korean_meaning": "그는 무례하게 행동한 것에 대해 나에게 사과했습니다.",
+        "quiz": "He offered me an ? for being so rude.",
+        "answer": "apology"
+    },
+    {
+        "word": "dominant",
+        "meaning": "지배적인, 우위를 차지하는",
+        "sentence": "Opinions in favor of the bill were dominant.",
+        "korean_meaning": "그 법안에 찬성하는 의견이 지배적이었습니다.",
+        "quiz": "Opinions in favor of the bill were ?.",
+        "answer": "dominant"
+    },
+    {
+        "word": "revise",
+        "meaning": "수정하다, 개정하다",
+        "sentence": "The book is now completely revised and updated.",
+        "korean_meaning": "그 책은 이제 완전히 수정되고 업데이트되었습니다.",
+        "quiz": "The book is now completely ? and updated.",
+        "answer": "revised"
+    },
+    {
+        "word": "discourse",
+        "meaning": "담화, 담론; 이야기를 하다, 논하다",
+        "sentence": "The speakers' discourse on ethics in medicine was fascinating.",
+        "korean_meaning": "연사들의 의학 윤리에 관한 담론은 매력적이었습니다.",
+        "quiz": "The speakers' ? on ethics in medicine was fascinating.",
+        "answer": "discourse"
+    },
+    {
+        "word": "immediate",
+        "meaning": "즉각적인; 시급한, 당면한; 직접적인",
+        "sentence": "This is an urgent matter that requires an immediate reply.",
+        "korean_meaning": "이는 즉각적인 답변이 필요한 긴급한 문제입니다.",
+        "quiz": "This is an urgent matter that requires an ? reply.",
+        "answer": "immediate"
+    },
+    {
+        "word": "manage",
+        "meaning": "경영하다, 관리하다; 간신히 ~하다",
+        "sentence": "I managed to submit my report on time.",
+        "korean_meaning": "나는 제시간에 보고서를 제출할 수 있었습니다.",
+        "quiz": "I ? to submit my report on time.",
+        "answer": "managed"
+    },
+    {
+        "word": "permit",
+        "meaning": "허락하다; 허가(증)",
+        "sentence": "Visitors are not permitted to take photos in this museum.",
+        "korean_meaning": "이 박물관에서는 방문객들이 사진 촬영을 허락받지 못합니다.",
+        "quiz": "Visitors are not ? to take photos in this museum.",
+        "answer": "permitted"
+    },
+    {
+        "word": "commence",
+        "meaning": "시작되다, 시작하다",
+        "sentence": "The next term is scheduled to commence in January.",
+        "korean_meaning": "다음 학기는 1월에 시작될 예정입니다.",
+        "quiz": "The next term is scheduled to ? in January.",
+        "answer": "commence"
+    },
+    {
+        "word": "perspective",
+        "meaning": "견해, 관점; 원근법",
+        "sentence": "He offered his perspective on the economic recovery.",
+        "korean_meaning": "그는 경제 회복에 대한 자신의 견해를 제시했습니다.",
+        "quiz": "He offered his ? on the economic recovery.",
+        "answer": "perspective"
+    },
+    {
+        "word": "disclose",
+        "meaning": "드러내다, 폭로하다",
+        "sentence": "Companies must not disclose the private information of their employees.",
+        "korean_meaning": "회사들은 직원들의 개인 정보를 공개해서는 안 됩니다.",
+        "quiz": "Companies must not ? the private information of their employees.",
+        "answer": "disclose"
+    },
+    {
+        "word": "swear",
+        "meaning": "맹세하다, 선언하다; 욕을 하다",
+        "sentence": "He raised his right hand and swore to tell the truth in the courtroom.",
+        "korean_meaning": "그는 법정에서 오른손을 들어 진실을 말할 것을 맹세했습니다.",
+        "quiz": "He raised his right hand and ? to tell the truth in the courtroom.",
+        "answer": "swore"
+    },
+    {
+        "word": "negotiate",
+        "meaning": "협상하다, 교섭하다",
+        "sentence": "The player asked the owner of his team to negotiate his annual salary.",
+        "korean_meaning": "그 선수는 자신의 연봉을 협상해 달라고 팀의 구단주에게 요청했습니다.",
+        "quiz": "The player asked the owner of his team to ? his annual salary.",
+        "answer": "negotiate"
+    },
+    {
+        "word": "explode",
+        "meaning": "폭발하다[시키다]",
+        "sentence": "The bomb exploded with thunderous roar.",
+        "korean_meaning": "폭탄이 천둥 같은 소리와 함께 폭발했습니다.",
+        "quiz": "The bomb ? with thunderous roar.",
+        "answer": "exploded"
+    },
+    {
+        "word": "facilitate",
+        "meaning": "촉진하다, 용이하게 하다",
+        "sentence": "This system can help facilitate communication between departments.",
+        "korean_meaning": "이 시스템은 부서 간의 의사소통을 촉진하는 데 도움이 될 수 있습니다.",
+        "quiz": "This system can help ? communication between departments.",
+        "answer": "facilitate"
+    },
+    {
+        "word": "trigger",
+        "meaning": "촉발시키다; 작동시키다; 방아쇠; 계기",
+        "sentence": "His speech triggered a huge debate.",
+        "korean_meaning": "그의 연설은 큰 논쟁을 촉발시켰습니다.",
+        "quiz": "His speech ? a huge debate.",
+        "answer": "triggered"
+    },
+    {
+        "word": "acquire",
+        "meaning": "얻다, 습득하다; 획득하다",
+        "sentence": "He acquired wealth and fame through his business.",
+        "korean_meaning": "그는 사업을 통해 부와 명성을 얻었습니다.",
+        "quiz": "He ? wealth and fame through his business.",
+        "answer": "acquired"
+    },
+    {
+        "word": "applaud",
+        "meaning": "박수갈채하다; 칭찬하다",
+        "sentence": "Everybody stood up to applaud their great performance.",
+        "korean_meaning": "모든 사람들이 그들의 훌륭한 공연에 박수를 치기 위해 일어섰습니다.",
+        "quiz": "Everybody stood up to ? their great performance.",
+        "answer": "applaud"
+    },
+    {
+        "word": "obscure",
+        "meaning": "모호한; 잘 알려지지 않은; 모호하게 하다",
+        "sentence": "She gave an obscure answer to my proposal.",
+        "korean_meaning": "그녀는 내 제안에 모호한 답변을 했습니다.",
+        "quiz": "She gave an ? answer to my proposal.",
+        "answer": "obscure"
+    },
+    {
+        "word": "license",
+        "meaning": "면허, 인가; 면허를 주다, 허가하다",
+        "sentence": "I got my driver's license last month.",
+        "korean_meaning": "나는 지난달에 운전 면허증을 땄습니다.",
+        "quiz": "I got my driver's ? last month.",
+        "answer": "license"
+    },
+    {
+        "word": "orphan",
+        "meaning": "고아",
+        "sentence": "Many children became orphans due to the war.",
+        "korean_meaning": "많은 아이들이 전쟁으로 인해 고아가 되었습니다.",
+        "quiz": "Many children became ? due to the war.",
+        "answer": "orphans"
+    },
+    {
+        "word": "electronic",
+        "meaning": "전자의, 전자공학의",
+        "sentence": "This electronic device is small and convenient to use.",
+        "korean_meaning": "이 전자 장치는 작고 사용하기 편리합니다.",
+        "quiz": "This ? device is small and convenient to use.",
+        "answer": "electronic"
+    },
+    {
+        "word": "expertise",
+        "meaning": "전문 지식[기술]",
+        "sentence": "It requires expertise to produce a piece of furniture.",
+        "korean_meaning": "가구 한 점을 만들려면 전문 지식이 필요합니다.",
+        "quiz": "It requires ? to produce a piece of furniture.",
+        "answer": "expertise"
+    },
+    {
+        "word": "associate",
+        "meaning": "연상하다, 연관 짓다; 교제하다",
+        "sentence": "Obesity is closely associated with several chronic diseases.",
+        "korean_meaning": "비만은 여러 만성 질환과 밀접하게 연관되어 있습니다.",
+        "quiz": "Obesity is closely ? with several chronic diseases.",
+        "answer": "associated"
+    },
+    {
+        "word": "endeavor",
+        "meaning": "노력하다, 시도하다; 노력, 시도",
+        "sentence": "He endeavored to conceal his feelings from others.",
+        "korean_meaning": "그는 자신의 감정을 다른 사람들에게 숨기기 위해 노력했습니다.",
+        "quiz": "He ? to conceal his feelings from others.",
+        "answer": "endeavored"
+    },
+    {
+        "word": "restrict",
+        "meaning": "제한하다, 한정하다",
+        "sentence": "The government had restricted rice imports from abroad.",
+        "korean_meaning": "정부는 해외에서의 쌀 수입을 제한했습니다.",
+        "quiz": "The government had ? rice imports from abroad.",
+        "answer": "restricted"
+    },
+    {
+        "word": "precious",
+        "meaning": "귀중한, 값비싼; 소중한",
+        "sentence": "The school field trip will make precious memories for students.",
+        "korean_meaning": "학교 현장 학습은 학생들에게 소중한 추억을 만들어 줄 것입니다.",
+        "quiz": "The school field trip will make ? memories for students.",
+        "answer": "precious"
+    },
+    {
+        "word": "compulsory",
+        "meaning": "강제적인, 의무적인, 필수의",
+        "sentence": "English is one of the compulsory subjects in Korea.",
+        "korean_meaning": "영어는 한국에서 필수 과목 중 하나입니다.",
+        "quiz": "English is one of the ? subjects in Korea.",
+        "answer": "compulsory"
+    },
+    {
+        "word": "otherwise",
+        "meaning": "만약 그렇지 않다면",
+        "sentence": "Hurry up; otherwise, you'll be late.",
+        "korean_meaning": "서둘러; 그렇지 않으면 늦을 것입니다.",
+        "quiz": "Hurry up; ?, you'll be late.",
+        "answer": "otherwise"
+    },
+    {
+        "word": "whereas",
+        "meaning": "그런데, ~에 반해서",
+        "sentence": "The old system was complicated whereas the new system is simple.",
+        "korean_meaning": "구 시스템은 복잡한 반면 신 시스템은 간단합니다.",
+        "quiz": "The old system was complicated ? the new system is simple.",
+        "answer": "whereas"
+    },
+    {
+        "word": "successful",
+        "meaning": "성공한, 성공적인",
+        "sentence": "His lung cancer surgery was completely successful.",
+        "korean_meaning": "그의 폐암 수술은 완전히 성공적이었습니다.",
+        "quiz": "His lung cancer surgery was completely ?.",
+        "answer": "successful"
+    },
+    {
+        "word": "successive",
+        "meaning": "연속적인, 연이은",
+        "sentence": "Emma won the singing contest for the third successive year.",
+        "korean_meaning": "엠마는 3년 연속으로 노래 대회에서 우승했습니다.",
+        "quiz": "Emma won the singing contest for the third ? year.",
+        "answer": "successive"
+    },
+    {
+        "word": "separate",
+        "meaning": "분리하다[되다], 갈라지다[놓다]; 분리된; 별개의",
+        "sentence": "We should separate plastic bottles and glass bottles for recycling.",
+        "korean_meaning": "우리는 플라스틱 병과 유리 병을 분리하여 재활용해야 합니다.",
+        "quiz": "We should ? plastic bottles and glass bottles for recycling.",
+        "answer": "separate"
+    },
+    {
+        "word": "accompany",
+        "meaning": "동행하다, 동반하다; 수반하여 일어나다",
+        "sentence": "Children under six must be accompanied by an adult within arm's reach.",
+        "korean_meaning": "6세 미만의 어린이는 팔 길이 내의 성인이 동반해야 합니다.",
+        "quiz": "Children under six must be ? by an adult within arm's reach.",
+        "answer": "accompanied"
+    },
+    {
+        "word": "compromise",
+        "meaning": "타협, 절충; 타협하다, 화해하다",
+        "sentence": "In the end, both parties reached a compromise.",
+        "korean_meaning": "결국 양측은 타협에 도달했습니다.",
+        "quiz": "In the end, both parties reached a ?.",
+        "answer": "compromise"
+    },
+    {
+        "word": "coincidence",
+        "meaning": "(우연의) 일치",
+        "sentence": "I just bought the same book. What a coincidence!",
+        "korean_meaning": "저는 방금 같은 책을 샀습니다. 정말 우연의 일치네요!",
+        "quiz": "I just bought the same book. What a ?!",
+        "answer": "coincidence"
+    },
+    {
+        "word": "controversial",
+        "meaning": "논쟁의, 논쟁의 여지가 있는",
+        "sentence": "Human cloning is still a controversial issue.",
+        "korean_meaning": "인간 복제는 여전히 논란의 여지가 있는 문제입니다.",
+        "quiz": "Human cloning is still a ? issue.",
+        "answer": "controversial"
+    },
+    {
+        "word": "counterfeit",
+        "meaning": "위조하다; 위조의, 가짜의",
+        "sentence": "They were accused of counterfeiting ten-thousand-won bills.",
+        "korean_meaning": "그들은 만원짜리 지폐를 위조한 혐의로 기소되었습니다.",
+        "quiz": "They were accused of ? ten-thousand-won bills.",
+        "answer": "counterfeiting"
+    },
+    {
+        "word": "illiterate",
+        "meaning": "글을 모르는, 문맹의; 문맹자",
+        "sentence": "Half of the population in the country is illiterate.",
+        "korean_meaning": "그 나라 인구의 절반은 문맹입니다.",
+        "quiz": "Half of the population in the country is ?.",
+        "answer": "illiterate"
+    },
+    {
+        "word": "immoral",
+        "meaning": "비도덕적인, 부도덕한",
+        "sentence": "The citizens were shocked by the immoral acts of the president.",
+        "korean_meaning": "시민들은 대통령의 비도덕적인 행동에 충격을 받았습니다.",
+        "quiz": "The citizens were shocked by the ? acts of the president.",
+        "answer": "immoral"
+    },
+    {
+        "word": "enlighten",
+        "meaning": "계몽하다, (설명하여) 이해시키다",
+        "sentence": "The philosopher enlightened the people with his teachings.",
+        "korean_meaning": "그 철학자는 그의 가르침으로 사람들을 계몽했습니다.",
+        "quiz": "The philosopher ? the people with his teachings.",
+        "answer": "enlightened"
+    },
+    {
+        "word": "extinct",
+        "meaning": "멸종된, 사라진; (화산 등이) 활동을 멈춘",
+        "sentence": "Dinosaurs were extinct millions of years ago.",
+        "korean_meaning": "공룡은 수백만 년 전에 멸종되었습니다.",
+        "quiz": "Dinosaurs were ? millions of years ago.",
+        "answer": "extinct"
+    },
+    {
+        "word": "exaggerate",
+        "meaning": "과장하다",
+        "sentence": "Reporters must not exaggerate or distort facts.",
+        "korean_meaning": "기자들은 사실을 과장하거나 왜곡해서는 안 됩니다.",
+        "quiz": "Reporters must not ? or distort facts.",
+        "answer": "exaggerate"
+    },
+    {
+        "word": "dissolve",
+        "meaning": "녹다[녹이다]; 해산하다",
+        "sentence": "This detergent dissolves easily in water.",
+        "korean_meaning": "이 세제는 물에 쉽게 녹습니다.",
+        "quiz": "This detergent ? easily in water.",
+        "answer": "dissolves"
+    },
+    {
+        "word": "intolerable",
+        "meaning": "참을 수 없는, 견딜 수 없는",
+        "sentence": "The patient complained of having intolerable pains.",
+        "korean_meaning": "환자는 참을 수 없는 통증을 호소했습니다.",
+        "quiz": "The patient complained of having ? pains.",
+        "answer": "intolerable"
+    },
+    {
+        "word": "subordinate",
+        "meaning": "하위의; 부차적인; 하급자; 하위에 두다",
+        "sentence": "He always listens to the suggestions of his subordinates.",
+        "korean_meaning": "그는 항상 부하 직원들의 제안을 듣습니다.",
+        "quiz": "He always listens to the suggestions of his ?.",
+        "answer": "subordinates"
+    },
+    {
+        "word": "subscribe",
+        "meaning": "(신문 등을) 구독하다; 서명하다",
+        "sentence": "Fill out this form to subscribe to our newspaper.",
+        "korean_meaning": "우리 신문을 구독하려면 이 양식을 작성하세요.",
+        "quiz": "Fill out this form to ? to our newspaper.",
+        "answer": "subscribe"
+    },
+    {
+        "word": "masterpiece",
+        "meaning": "걸작, 대표작",
+        "sentence": "Many masterpieces are on exhibit at this gallery.",
+        "korean_meaning": "많은 걸작들이 이 갤러리에서 전시되고 있습니다.",
+        "quiz": "Many ? are on exhibit at this gallery.",
+        "answer": "masterpieces"
+    },
+    {
+        "word": "overlook",
+        "meaning": "간과하다; 못 본 체하다; 내려다보다",
+        "sentence": "He seldom overlooks mistakes others have made.",
+        "korean_meaning": "그는 다른 사람들이 저지른 실수를 좀처럼 간과하지 않습니다.",
+        "quiz": "He seldom ? mistakes others have made.",
+        "answer": "overlooks"
+    },
+    {
+        "word": "persuade",
+        "meaning": "설득하다; 납득시키다",
+        "sentence": "I persuaded him not to carry out his plan.",
+        "korean_meaning": "나는 그가 자신의 계획을 실행하지 않도록 설득했습니다.",
+        "quiz": "I ? him not to carry out his plan.",
+        "answer": "persuaded"
+    },
+    {
+        "word": "postpone",
+        "meaning": "연기하다, 늦추다",
+        "sentence": "Don’t postpone until tomorrow what can be done today.",
+        "korean_meaning": "오늘 할 수 있는 일을 내일로 미루지 마세요.",
+        "quiz": "Don’t ? until tomorrow what can be done today.",
+        "answer": "postpone"
+    },
+    {
+        "word": "sovereign",
+        "meaning": "주권이 있는; 최고 권력의; 통치자",
+        "sentence": "Sovereign authority should lie with the people.",
+        "korean_meaning": "주권은 국민에게 있어야 합니다.",
+        "quiz": "? authority should lie with the people.",
+        "answer": "Sovereign"
+    },
+    {
+        "word": "transaction",
+        "meaning": "거래, 매매",
+        "sentence": "He came here to make a business transaction with us.",
+        "korean_meaning": "그는 우리와 비즈니스 거래를 하기 위해 여기 왔습니다.",
+        "quiz": "He came here to make a business ? with us.",
+        "answer": "transaction"
+    },
+    {
+        "word": "sympathetic",
+        "meaning": "동정적인; 호의적인, 공감하는",
+        "sentence": "We felt sympathetic towards the starving children.",
+        "korean_meaning": "우리는 굶주린 아이들에게 동정심을 느꼈습니다.",
+        "quiz": "We felt ? towards the starving children.",
+        "answer": "sympathetic"
+    },
+    {
+        "word": "synchronize",
+        "meaning": "동시에 발생하다, 동시에 움직이다",
+        "sentence": "We decided to synchronize our schedules to improve efficiency.",
+        "korean_meaning": "우리는 효율성을 높이기 위해 일정을 동기화하기로 결정했습니다.",
+        "quiz": "We decided to ? our schedules to improve efficiency.",
+        "answer": "synchronize"
+    },
+    {
+        "word": "underestimate",
+        "meaning": "과소평가하다; (값을) 너무 적게 잡다",
+        "sentence": "He tends to underestimate others’ abilities.",
+        "korean_meaning": "그는 다른 사람들의 능력을 과소평가하는 경향이 있습니다.",
+        "quiz": "He tends to ? others’ abilities.",
+        "answer": "underestimate"
+    },
+    {
+        "word": "prestige",
+        "meaning": "명성, 신망; 명성이 있는, 명품의, 명문의",
+        "sentence": "You can win prestige by putting extra effort into your work.",
+        "korean_meaning": "추가적인 노력을 기울여 일을 함으로써 명성을 얻을 수 있습니다.",
+        "quiz": "You can win ? by putting extra effort into your work.",
+        "answer": "prestige"
+    },
+    {
+        "word": "vacant",
+        "meaning": "비어 있는; 빈자리의, 결원의",
+        "sentence": "Are there any vacant seats on the next flight?",
+        "korean_meaning": "다음 항공편에 빈 좌석이 있습니까?",
+        "quiz": "Are there any ? seats on the next flight?",
+        "answer": "vacant"
+    },
+    {
+        "word": "dispensable",
+        "meaning": "없어도 되는, 불필요한",
+        "sentence": "No one in the world is dispensable.",
+        "korean_meaning": "세상에 없어도 되는 사람은 없습니다.",
+        "quiz": "No one in the world is ?.",
+        "answer": "dispensable"
+    },
+    {
+        "word": "divisible",
+        "meaning": "나눌 수 있는, 나누어지는",
+        "sentence": "Nine is divisible by three, but not by four.",
+        "korean_meaning": "9는 3으로 나눌 수 있지만, 4로는 나눌 수 없습니다.",
+        "quiz": "Nine is ? by three, but not by four.",
+        "answer": "divisible"
+    },
+    {
+        "word": "duplicate",
+        "meaning": "똑같은; 사본; 복사하다; 되풀이하다",
+        "sentence": "Would you make me a duplicate of this report?",
+        "korean_meaning": "이 보고서의 사본을 만들어 주시겠습니까?",
+        "quiz": "Would you make me a ? of this report?",
+        "answer": "duplicate"
+    },
+    {
+        "word": "continent",
+        "meaning": "대륙, 육지",
+        "sentence": "Asia is larger than any other continent in the world.",
+        "korean_meaning": "아시아는 세계의 다른 어떤 대륙보다 큽니다.",
+        "quiz": "Asia is larger than any other ? in the world.",
+        "answer": "continent"
+    },
+    {
+        "word": "abstain",
+        "meaning": "기권하다; 삼가다, 절제하다",
+        "sentence": "A lot of voters abstained because of political indifference.",
+        "korean_meaning": "많은 유권자들이 정치적 무관심 때문에 기권했습니다.",
+        "quiz": "A lot of voters ? because of political indifference.",
+        "answer": "abstained"
+    },
+    {
+        "word": "adolescent",
+        "meaning": "청소년; 청소년의",
+        "sentence": "His lectures help adolescents realize the importance of exercise.",
+        "korean_meaning": "그의 강의는 청소년들이 운동의 중요성을 깨닫는 데 도움을 줍니다.",
+        "quiz": "His lectures help ? realize the importance of exercise.",
+        "answer": "adolescents"
+    },
+    {
+        "word": "conceive",
+        "meaning": "생각해 내다; 상상하다; 임신하다",
+        "sentence": "He alone conceived the new business plan.",
+        "korean_meaning": "그는 혼자서 새로운 사업 계획을 구상했습니다.",
+        "quiz": "He alone ? the new business plan.",
+        "answer": "conceived"
+    },
+    {
+        "word": "deceive",
+        "meaning": "속이다, 기만하다",
+        "sentence": "She was deceived by forged letters.",
+        "korean_meaning": "그녀는 위조된 편지에 속았습니다.",
+        "quiz": "She was ? by forged letters.",
+        "answer": "deceived"
+    },
+    {
+        "word": "predecessor",
+        "meaning": "전임자, 선배",
+        "sentence": "My predecessor had been the firm’s leader for 15 years.",
+        "korean_meaning": "내 전임자는 15년 동안 그 회사의 지도자였습니다.",
+        "quiz": "My ? had been the firm’s leader for 15 years.",
+        "answer": "predecessor"
+    },
+    {
+        "word": "sophisticated",
+        "meaning": "세련된, 교양 있는; 정교한",
+        "sentence": "She has a very sophisticated eye for fashion.",
+        "korean_meaning": "그녀는 패션에 대한 매우 세련된 안목을 가지고 있습니다.",
+        "quiz": "She has a very ? eye for fashion.",
+        "answer": "sophisticated"
+    }
+]
