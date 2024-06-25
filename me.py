@@ -3,8 +3,6 @@ from json import loads
 from time import sleep
 from termcolor import colored
 from time import time
-from tkinter import *
-import threading
 
 sleepTime = 0.6666
 while True:
@@ -21,7 +19,7 @@ while True:
     try:
         ins = input("문제 사이 대기 시간 설정 (초): "+str(sleepTime)+" -> ")
         if ins == "": raise ArithmeticError
-        sleepTime = float(ins)
+        sleepTime = float()
     except ValueError:
         print("잘못된 입력입니다.")
     except ArithmeticError:
@@ -65,24 +63,6 @@ score = 0
 max_combo = 0
 review = []
 
-entry = Text()
-label = Label()
-end = False
-def f():
-    global entry, label, end
-    tk = Tk()
-    tk.geometry("333x100")
-
-    label = Label(tk, text="답을 입력하세요 (----):", font=('맑은 고딕',15))
-    label.grid(row=0, column=0)
-    entry = Text(tk, font=('맑은 고딕',15), width=30)
-    entry.grid(row=1,column=0)
-    tk.protocol("WM_DELETE_WINDOW")
-    tk.mainloop()
-    end = True
-th = threading.Thread(target=f)
-th.start()
-
 for i in range(N):
     question = choice(quiz)
     quiz.remove(question)
@@ -102,14 +82,7 @@ for i in range(N):
         print()
 
     temp = time()
-    combonus = (combo//5+5)/5
-    while '\n' not in entry.get(1.0,'end-1c') and not end:
-        p = str(int(max(combonus * (20.0 - (time() - temp)) / 20.0 * 1000, 100 * combonus)))
-        while len(p) < 4:
-            p = '0'+p
-        label.config(text='답을 입력하세요 ('+p+"): ")
-    answer = entry.get(1.0,'end-1c').strip()
-    entry.delete('1.0', END)
+    answer = input("답을 입력하세요: ")
     try:
         test = int(answer)
         print("단어를 입력해야 합니다.")
@@ -118,6 +91,7 @@ for i in range(N):
     if answer == question["answer"]:
         combo += 1
         tsc=score
+        combonus = (combo//5+5)/5
         combostr = ""
         if combonus!=1 :
             combostr = " ("+str(int(combonus*100)/100)+"x)"
@@ -148,7 +122,6 @@ elif N == ans:
 else:
     print("영어의 범재군요.")
 print("[ Max Combo:", max_combo,"| Score:",score,"(avg:",str(score/N)+")",']')
-
 try:
     if input("\n틀린 단어들을 보려면 Enter를 누르세요. (아무거나 입력해 종료)")!="":exit()
 except KeyboardInterrupt:exit()
