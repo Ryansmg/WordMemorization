@@ -13,7 +13,7 @@ elif tp == 2:
     with open("words2.json", "r", encoding="utf-8") as f:
         quiz = loads(f.read())
 else:
-    print("병신 난독증있냐? 1이나 2만 입력해라")
+    print("[검열] 난독증있냐? 1이나 2만 입력해라")
     exit()
 
 meanings = []
@@ -24,7 +24,7 @@ N = int(input(f"몇 문제를 푸실 건가요? (전체 {len(quiz)} 문제) "))
 print("\n")
 
 if N > len(quiz):
-    print(f"병신년아 {len(quiz)}개 이하로 입력해라")
+    print(f"[검열]아 {len(quiz)}개 이하로 입력해라")
     exit()
 
 ans = 0
@@ -61,8 +61,8 @@ for i in range(N):
 
 print(f"총 {colored(str(N), "yellow")}문제 중 {colored(str(ans), "yellow")}문제를 맞추셨습니다.")
 if ans < N // 2:
-    print("절반이다 틀리다니 병신이네요! 공부나 다시하세요")
+    print("절반이다 틀리다니 [검열]이네요! 공부나 다시하세요")
 elif N // 2 < ans < N //3 * 2:
-    print("병신 신세는 면하셨군요! 하지만 수행평가 만점을 받기엔 어림도 없죠!")
+    print("[검열] 신세는 면하셨군요! 하지만 수행평가 만점을 받기엔 어림도 없죠!")
 elif N == ans:
     print("영어의 귀재군요!")
