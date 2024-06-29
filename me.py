@@ -20,6 +20,8 @@ while True:
         ins = input("문제 사이 대기 시간 설정 (초): "+str(sleepTime)+" -> ")
         if ins == "": raise ArithmeticError
         sleepTime = float(ins)
+        if sleepTime < 0:
+            raise ArithmeticError
     except ValueError:
         print("잘못된 입력입니다.")
     except ArithmeticError:
@@ -172,7 +174,7 @@ if ans < N // 4:
 elif ans < N // 2:
     print("절반 이상이나 틀리다니..")
 elif N // 2 <= ans <= N // 3 * 2:
-    print("수행평가 만점을 받기엔 아직 일러요")
+    print("영어 공부를 꽤 열심히 하셨군요.")
 elif N == ans:
     print("영어의 귀재군요!")
 else:
