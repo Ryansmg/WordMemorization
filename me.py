@@ -21,7 +21,11 @@ while True:
         if ins == "": raise ArithmeticError
         sleepTime = float(ins)
         if sleepTime < 0:
-            raise ArithmeticError
+            print("0 이상이어야 합니다.")
+            exit()
+        if sleepTime > 5:
+            print('5초 미만으로 설정하세요.')
+            exit()
     except ValueError:
         print("잘못된 입력입니다.")
     except ArithmeticError:
