@@ -19,7 +19,7 @@ while True:
     try:
         ins = input("문제 사이 대기 시간 설정 (초): "+str(sleepTime)+" -> ")
         if ins == "": raise ArithmeticError
-        sleepTime = float()
+        sleepTime = float(ins)
     except ValueError:
         print("잘못된 입력입니다.")
     except ArithmeticError:
@@ -45,6 +45,9 @@ try:
         elif temp==2:
             with open("words00.json", "r", encoding="utf-8") as f:
                 quiz = loads(f.read())
+        else:
+            print("잘못된 입력입니다.")
+            exit()
     else:
         print("잘못된 입력입니다.")
         exit()
@@ -56,6 +59,8 @@ if tp == 3:
     print("모드를 선택하세요: 1. 보기 중 단어 고르기, 2. 보기 없이 단어 쓰기, 3. 보기 중 뜻 고르기: ", end='')
     try:
         ttp = int(input())
+        if ttp <= 0 or ttp > 3:
+            raise ValueError
     except ValueError:
         print("잘못된 입력입니다.")
         exit()
@@ -172,7 +177,7 @@ elif N == ans:
     print("영어의 귀재군요!")
 else:
     print("영어의 범재군요.")
-print("[ Max Combo:", max_combo,"| Score:",score,"(avg:",str(score/N)+")",']')
+print("[ Max Combo:", max_combo,"| Score:",score,"(avg:",str(int(score/N*100)/100)+")",']')
 try:
     if input("\n틀린 단어들을 보려면 Enter를 누르세요. (아무거나 입력해 종료)")!="":exit()
 except KeyboardInterrupt:exit()
