@@ -33,7 +33,7 @@ try:
         with open("words2.json", "r", encoding="utf-8") as f:
             quiz = loads(f.read())
     elif tp == 3:
-        print("외울 단어 목록을 고르세요: 1. 클래스카드, 2. 기말범위")
+        print("외울 단어 목록을 고르세요: 1. 클래스카드, 2. 기말범위: ", end='')
         try:
             temp = int(input())
         except ValueError:
@@ -53,7 +53,7 @@ except FileNotFoundError:
     exit()
 ttp = -1
 if tp == 3:
-    print("모드를 선택하세요: 1. 보기 중 단어 고르기, 2. 보기 없이 단어 쓰기, 3. 보기 중 뜻 고르기")
+    print("모드를 선택하세요: 1. 보기 중 단어 고르기, 2. 보기 없이 단어 쓰기, 3. 보기 중 뜻 고르기: ", end='')
     try:
         ttp = int(input())
     except ValueError:
@@ -128,7 +128,10 @@ for i in range(N):
             print("단어를 입력해야 합니다.")
             exit()
         elif ttp==3:
-            answer = choices[test-1]
+            if test >= 1 and test <= 5:
+                answer = choices[test-1]
+            else:
+                answer = "정우현과민민기가만든개쩌는프로그램입니다."
     except ValueError:
         if ttp == 3:
             print("숫자를 입력해야 합니다.")
