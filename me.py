@@ -173,11 +173,11 @@ for i in range(N):
     sleep(sleepTime)
 
 print(f"총 {colored(str(N), "yellow")}문제 중 {colored(str(ans), "yellow")}문제를 맞추셨습니다.")
-if ans < N // 4:
+if ans <= N // 4:
     print("열심히 공부하세요")
-elif ans < N // 2:
+elif ans <= N // 2:
     print("절반 이상이나 틀리다니..")
-elif N // 2 <= ans <= N // 3 * 2:
+elif ans <= N // 3 * 2:
     print("영어 공부를 꽤 열심히 하셨군요.")
 elif N == ans:
     print("영어의 귀재군요!")
