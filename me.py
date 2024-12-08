@@ -109,7 +109,7 @@ for i in range(N):
 
     questionStr = question[quiz_str]
     if tp == 2:
-        questionStr = questionStr.replace("?", question[ans_str][0] + "?")
+        questionStr = questionStr.replace("?", question[ans_str][0] + "?", 1)
 
     print(f"{colored(f"#{i + 1}.", "green")} {questionStr}")
     if tp == 2:
