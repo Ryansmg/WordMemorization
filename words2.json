@@ -140,8 +140,8 @@
         "meaning": "상품, 판매상품",
         "sentence": "Commodity prices are increasing sharply worldwide.",
         "korean_meaning": "상품 가격이 전 세계적으로 급증하고 있습니다.",
-        "quiz": "Commodity prices are increasing sharply ?.",
-        "answer": "worldwide"
+        "quiz": "? prices are increasing sharply worldwide.",
+        "answer": "commodity"
     },
     {
         "word": "contemporary",
