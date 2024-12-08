@@ -107,7 +107,11 @@ for i in range(N):
     question = choice(quiz)
     quiz.remove(question)
 
-    print(f"{colored(f"#{i + 1}.", "green")} {question[quiz_str]}")
+    questionStr = question[quiz_str]
+    if tp == 2:
+        questionStr = questionStr.replace("?", question[ans_str][0] + "?")
+
+    print(f"{colored(f"#{i + 1}.", "green")} {questionStr}")
     if tp == 2:
         print(f"{colored("의미:", "white")} {question['korean_meaning']}\n")
 
@@ -139,7 +143,7 @@ for i in range(N):
             print("단어를 입력해야 합니다.")
             exit()
         elif ttp==3:
-            if test >= 1 and test <= 5:
+            if 1 <= test <= 5:
                 answer = choices[test-1]
             else:
                 answer = "정우현과민민기가만든개쩌는프로그램입니다."
