@@ -111,9 +111,9 @@ for i in range(N):
     if tp == 2:
         questionStr = questionStr.replace("?", question[ans_str][0] + "?", 1)
 
-    print(f"{colored(f"#{i + 1}.", "green")} {questionStr}")
+    print(f'{colored(f"#{i + 1}.", "green")} {questionStr}')
     if tp == 2:
-        print(f"{colored("의미:", "white")} {question['korean_meaning']}\n")
+        print(f'{colored("의미:", "white")} {question["korean_meaning"]}\n')
 
     if tp == 1 or ttp==1:
         choices = sample(meanings, 4)
@@ -122,7 +122,7 @@ for i in range(N):
         choices.append(question["word"])
         shuffle(choices)
 
-        print(" ".join(map(lambda x: f"{colored(str(x[0]), "white")}. {x[1]}", enumerate(choices, 1))))
+        print(" ".join(map(lambda x: f'{colored(str(x[0]), "white")}. {x[1]}', enumerate(choices, 1))))
         print()
     choices=[]
     if ttp==3:
@@ -132,7 +132,7 @@ for i in range(N):
         choices.append(question["meaning"])
         shuffle(choices)
         print(' ',end='')
-        print(" ".join(map(lambda x: f"{colored(str(x[0]), "white")}. {x[1]}\n", enumerate(choices, 1))))
+        print(" ".join(map(lambda x: f'{colored(str(x[0]), "white")}. {x[1]}\n', enumerate(choices, 1))))
         print()
 
     temp = time()
@@ -165,18 +165,18 @@ for i in range(N):
     else:
         combo = 0
         score -= 100
-        print(f"{colored("틀렸습니다.", "red")}", "[ Combo:", combo, "| Score:", str(score)+" (-100)","]")
-        print(f"정답은 {colored(question[ans_str], "yellow")} 입니다.")
-        st = f"{colored("예문:", "white")} {question["sentence"]}" if tp<=2 else ""
-        review.append(str(answer) + "(X), " + str(question[ans_str]) + "(O)\n"+f"{colored("뜻:", "white")} {question["word"]} -> {question["meaning"]}\n"+st)
+        print(f'{colored("틀렸습니다.", "red")}', "[ Combo:", combo, "| Score:", str(score)+" (-100)","]")
+        print(f'정답은 {colored(question[ans_str], "yellow")} 입니다.')
+        st = f'{colored("예문:", "white")} {question["sentence"]}' if tp<=2 else ""
+        review.append(str(answer) + "(X), " + str(question[ans_str]) + "(O)\n"+f'{colored("뜻:", "white")} {question["word"]} -> {question["meaning"]}\n'+st)
     if tp<=2:
         print("\n문제의 뜻과 예문은 다음과 같습니다.")
-        print(f"{colored("뜻:", "white")} {question["word"]} -> {question["meaning"]}")
-        print(f"{colored("예문:", "white")} {question["sentence"]}")
+        print(f'{colored("뜻:", "white")} {question["word"]} -> {question["meaning"]}')
+        print(f'{colored("예문:", "white")} {question["sentence"]}')
     print('\n')
     sleep(sleepTime)
 
-print(f"총 {colored(str(N), "yellow")}문제 중 {colored(str(ans), "yellow")}문제를 맞추셨습니다.")
+print(f'총 {colored(str(N), "yellow")}문제 중 {colored(str(ans), "yellow")}문제를 맞추셨습니다.')
 if ans <= N // 4:
     print("열심히 공부하세요")
 elif ans <= N // 2:
